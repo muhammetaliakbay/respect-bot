@@ -1,0 +1,13 @@
+[
+    {
+      "name": "default",
+      "type": "postgres",
+      "host": "localhost",
+      "port": 5432,
+      "username": "respect_bot",
+      "database": "respect_bot",
+      "entities": ["dist/**/*.entity.js"],
+      "migrations": ["dist/migrations/*.js"],
+      "migrationsTableName": "migrations_typeorm"
+    }
+  ]

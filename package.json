@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "main": "dist/main.js",
+    "scripts": {
+        "build": "tsc",
+        "migrate": "typeorm migration:run",
+        "start": "node ."
+    },
+    "dependencies": {
+        "twitter-api-v2": "^1.6.5",
+        "dotenv": "^10.0.0",
+        "tesseract.js": "^2.1.5",
+        "rxjs": "^7.4.0",
+        "@nestjs/core": "^8.1.2",
+        "@nestjs/common": "^8.1.2",
+        "pg": "^8.7.1",
+        "typeorm": "^0.2.38",
+        "@nestjs/typeorm": "^8.0.2",
+        "@nestjs/schedule": "^1.0.1"
+    },
+    "devDependencies": {
+        "typescript": "^4.4.4",
+        "@types/node": "^16.11.6",
+        "nodemon": "^2.0.14",
+        "@types/dotenv": "^8.2.0",
+        "reflect-metadata": "^0.1.13"
+    }
+}
